@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: newww
+  description: neww
+  annotations: 
+    github.com/project-slug: testing-backstage-zup/neww
+    backstage.io/github-actions-id: testing-backstage-zup/neww
+spec:
+  type: service
+  lifecycle: experimental
+  owner: joaofilipecb
